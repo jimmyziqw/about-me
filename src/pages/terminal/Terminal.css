@@ -1,0 +1,53 @@
+:root{
+  --desktop-width: 1440px;
+  --desktop-height: 820px;
+  --desktop-scale:2;
+  --desktop-scaled-width: calc(var(--desktop-width)/var(--desktop-scale));
+  --desktop-scaled-height: calc(var(--desktop-height)/var(--desktop-scale));
+}
+.desktop-terminal {
+  padding:1rem;
+  width:var(--desktop-scaled-width);
+  height:var(--desktop-scaled-height);
+  background-color: #1e1628;
+  color: #FFF;
+}
+
+.monologue .terminal  {
+    position:absolute;
+    top: 0;
+    background-color: #1e1628;
+    color: #FFF;
+    font-family: Consolas, "Courier New", monospace;
+    padding: 10px;
+    width: 100vw; 
+    height: 100vh;
+    overflow-y: auto; 
+    z-index: 101
+  }
+  
+  .content {
+    white-space: pre; /* Maintains whitespace formatting */
+    font-size: 2rem;
+  }
+  
+  .cursor {
+    display: inline-block;
+    background-color: #FFF;
+    width: 10px; /* Width of the cursor */
+    height: 17px; /* Height should match the line-height of the text */
+    margin-left: 5px; /* Space between the text and cursor */
+    animation: blink-animation 1s steps(1) infinite;
+    -webkit-animation: blink-animation  1s steps(2,start) infinite;
+  }
+  
+  /* Keyframes for the blinking animation */
+  @keyframes blink-animation {
+    from { background-color: #FFF; }
+    to { background-color: transparent; }
+  }
+
+  @-webkit-keyframes blink-animation {
+    /* from { background-color: #FFF; } */
+    to { visibility: hidden;}
+  }

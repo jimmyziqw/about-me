@@ -1,0 +1,205 @@
+[
+{
+    "text": "\njimmy@my-desktop:~$ Hi there. \njimmy@my-desktop:~$ Please scroll down to navigate.", "desc":"", "note":"---placeholder---",
+    "transition":"openText",
+    "camera": {"pos":[-0.59, 1.18, -1.06],"rot":[-0.21,0,0],"zoom":1,"fov":20}
+},
+
+{   
+    "text": "Welcome", "note":"dim light", 
+    "transition": "intro",
+    "camera":{"pos": [-0.010, 1.696, 5.643], "rot": [-4.794, 0.000, 0.000], "zoom":1, "fov":40},
+    "introSunLight" :{"pos":[-0.3, 3, -1.9], "rot":[-1.2,1.0, -2.7], "intensity":0.01, "color":"#11dfff"}, 
+    "introRoomDirectLight" :{"pos":[-0.3, 2.0,-1.9], "rot":[0,0,0], "intensity":0.01, "color":"#b999da"},
+    "ambientLight":{"pos":null, "rot":null, "intensity":0.01, "color":"#ffffff"}
+}, 
+    {"text": "", "desc":"", 
+    "transition": "desk",
+    "camera": {"pos":null,"rot":null,"zoom":1,"fov":40},
+    "introSunLight" :{"pos":null, "rot":null, "intensity":0.01, "color":"#11dfff"}, 
+    "introRoomDirectLight" :{"pos":null, "rot":null, "intensity":0.01, "color":"#b999da"}}, 
+
+    {"text": "My name is Jimmy.", "desc":"", 
+    "transition": "deskItem",
+    "camera": {"pos":null,"rot":null,"zoom":1,"fov":40}},  
+
+
+    {"text": "", "desc":"", 
+    "camera":{"pos": [-0.010, 1.696, 5.643], "rot": [-4.794, 0.000, 0.000], "zoom":null, "fov":null},
+        "introSunLight":{"pos":null, "rot":null, "intensity":null, "color":"#11dfff"}
+
+},
+    {"text": "", "desc":"", "note":"light full up", 
+    "transition": "introBg",
+
+    "camera": {"pos":null,"rot":null,"zoom":null,"fov":40},
+    "introSunLight":{"pos":null, "rot":null, "intensity":null, "color":"#11dfff"}}, 
+    
+    {"text": "", "desc":"", 
+    "transition": "chair",
+
+    "camera": {"pos":null,"rot":null,"zoom":null,"fov":40},
+    "introRoomDirectLight" :{"pos":null, "rot":null, "intensity":0.01, "color":"#b999da"},
+    "introSunLight":{"pos":[-0.54,1.96,-2.96], "rot":null, "intensity":0.01, "color":"#11dfff"}}, 
+
+
+    {"text": "I'm a full-stack software developer", "desc":"", 
+    "camera": {"pos": null,"rot":null,"zoom":null,"fov":40},
+    "ambientLight":{"pos":null, "rot":null, "intensity":0.01, "color":"#ffffff"}
+}, 
+    
+    {"text": "", "note":"ambient light up", 
+    "camera": {"pos":null,"rot":null,"zoom":null,"fov":null},
+    "ambientLight":{"pos":null, "rot":null, "intensity":0.01, "color":"#ffffff"}
+},
+
+    
+    { "text": "I started get interested in programming from physics simulation class,", "desc":"", 
+    "camera":{"pos": [-0.010, 1.696, 5.643], "rot": [-4.794, 0.000, 0.000], "zoom":null, "fov":null}
+    }, 
+
+
+    {"text": " ", "note":"",
+    "camera": {"pos":null,"rot":null,"zoom":null,"fov":null},
+    "introSunLight":{"pos":[-0.3, 3, -1.9], "rot":[1.7,-6.1, -0.2], "intensity":0.4, "color":"#11dfff"},
+    "introRoomDirectLight" :{"pos":null, "rot":null, "intensity":0.5, "color":"#b999da"}
+}
+    , 
+    
+    {"text": "Did not expect coding can be so and playful", "note": "[A cup coffee shown, plant shown.]", 
+    "transition":"galaxyOn",
+
+    "camera":{"pos": [-2.538, 2.037, 5.897], "rot": [-8.560, -15.873, -2.358], "zoom":null, "fov":null},
+    "introSunLight":{"pos":[-0.3, 3, -1.9], "rot":[0.3, -3.2, 3.8], "intensity":0.01, "color":"#11dfff"},
+    
+    "ambientLight":{"pos":null, "rot":null, "intensity":0.1, "color":"#ffffff"}
+
+}, 
+{
+    "text": "", "note":"---placeholder---", 
+"transition":"galaxyOff",
+"camera": {"pos": null,"rot":null,"zoom":null,"fov":40},
+"introSunLight":{"pos":[-0.3, 3, -1.9], "rot":[0.3, -3.2, 3.8], "intensity":5, "color":"#11dfff"},
+"introRoomDirectLight" :{"pos":null, "rot":null, "intensity":5, "color":"#b391d6"},
+"ambientLight":{"pos":null, "rot":null, "intensity":0.5, "color":"#ffffff"}
+
+}, 
+    {"text": "I took my first job in Enersion", "note": "show screen", 
+    "transition": "enersion",
+    "camera":{"pos": [-6.953, 2.877, 2.462], "rot": [-32.119, -65.343, -29.706], "zoom":null, "fov":null},
+    "introSunLight":{"pos":[3.218,3.218,-3.218], "rot":[-2.5,-9.0, 7], "intensity":8, "color":"#d9c86c"}
+}, 
+{
+    "text": "This is the place I started developing my coding skills ", "desc": null,
+    "camera": {"pos":null,"rot":null,"zoom":null,"fov":null}
+},     
+{
+    "text": "", 
+    "introRoomDirectLight" :{"pos":null, "rot":null, "intensity":5, "color":"#b999da"},
+    "camera":{"pos": [-4.351, 1.971, 1.055], "rot": [-74.116, -75.473, -73.619], "zoom":null, "fov":null}
+}, 
+{
+    "text": "", "desc": null,
+    "camera":{"pos": [-0.742, 1.389, 0.818], "rot": [-50.182, -73.215, -48.951], "zoom":null, "fov":null}
+}, 
+{
+    "text": "And started appreacitating a fine rich coffee",
+    "transition": "coffeeOn",
+    "camera": {"pos":null,"rot":null,"zoom":null,"fov":null}
+
+},
+{   
+    "text": "",
+    "transition": "coffeeOff",
+    "camera":{"pos": [-0.742, 1.389, 0.818], "rot": [-50.182, -73.215, -48.951], "zoom":null, "fov":null}
+}, 
+{
+    "text": "While I love the spirit of entrepreneurship", "note":"last enersion light",
+    "camera":{"pos": [-6.092, 2.005, 0.909], "rot": [-60.355, -81.840, -60.104], "zoom":null, "fov":40},    
+    "introSunLight":{"pos":[3.218,3.218,-3.218], "rot":[-2.5,-9.0, 7], "intensity":8, "color":"#d9c86c"},
+    "introRoomDirectLight":{"pos":[3.1,3,-3], "rot":[-2.5,-9.0, 7], "intensity":0, "color":"#d9c86c"} 
+},
+
+{
+    "text": "AI wave had come ... ", "note":"light anchor school-----------------------------------------------", 
+    "transition":"school",
+    "camera":{"pos": [-1.891, 2.330, -6.108], "rot": [-166.928, -11.259, -177.405], "zoom":null, "fov":null},   
+     "introSunLight":{"pos":[5.0,2.2,3.5], "rot":[-0.1,-0.9, 0.5], "intensity":4.9, "color":"#8892ad"} ,
+    "introRoomDirectLight":{"pos":[0.7,0.8,0], "rot":[-3.5,-1.3,-1.6], "intensity":1.3, "color":"#82fffd"} 
+},    
+{
+    "text": "", "desc": null,
+    "camera": {"pos":null,"rot":null,"zoom":null,"fov":null}
+},  
+{
+    "text": "I went for graduate study", "desc": null,
+    "camera": {"pos":null,"rot":null,"zoom":null,"fov":null},
+    "introSunLight":{"pos":[3.218,3.218,-3.218], "rot":[-2.5,-9.0, 7], "intensity":1.5, "color":"#8892ad"}
+
+}, 
+
+{
+    "text": "And got my machine learning toolkit upgraded", "note": "", 
+    "camera":{"pos": [4.000, 2.330, -4.377], "rot": [-162.902, 41.021, 168.585], "zoom":null, "fov":null}    
+},
+
+{
+    "text": "My developer journey will be continuing ... ", "note": "",
+    "transition": "callback",
+    "camera":{"pos": [4.489, 2.008, 5.062], "rot": [-10.923, 40.917, 7.203], "zoom":null, "fov":null}
+},
+{
+    "text": "", 
+    "transition":"final",
+    "introSunLight":{"pos":[3.218,3.218,-3.218], "rot":[-2.5,-9.0, 7], "intensity":5, "color":"#d9c86c"},
+    "camera":{"pos": [-0.069, 1.969, 5.869], "rot": [-8.238, -2.087, -0.303], "zoom":null, "fov":null}
+},
+{
+    "text": "As I always love crafting new things",
+    "transition": "",
+    "camera":{"pos": [-0.104, 1.968, 2.748], "rot": [-8.238, -2.087, -0.303], "zoom":null, "fov":null},   
+    "introSunLight":{"pos":[-0.2,0.8,-2], "rot":[-8.238, -2.087, -0.303], "intensity":0.1, "color":"#ca792c"}, 
+    "introRoomDirectLight":{"pos":[-1,3.1,1.4], "rot":[-0.4,0,-9], "intensity":1.4, "color":"#c62323"}, 
+    "ambientLight":{"pos":null, "rot":null, "intensity":0.5, "color":"#ffffff"}
+},    
+{
+    "text": "", 
+    "camera":{"pos": [-0.215, 1.577, 0.872], "rot": [-8.238, -2.087, -0.303], "zoom":null, "fov":null},
+    "introSunLight":{"pos":[-0.2,0.8,-2], "rot":[-8.238, -2.087, -0.303], "intensity":0.1, "color":"#ca792c"}, 
+    "introRoomDirectLight":{"pos":[-1,3.1,1.4], "rot":[-0.4,0,-9], "intensity":5.9, "color":"#c62323"}, 
+    "ambientLight":{"pos":null, "rot":null, "intensity":0.5, "color":"#ffffff"}
+}, 
+
+    {"text": "", 
+    "camera": {"pos":null,"rot":null,"zoom":null,"fov":null},
+    "ambientLight":{"pos":null, "rot":null, "intensity":0.1, "color":"#ffffff"}
+},
+{
+    "text": " ", 
+    "transition":"end", 
+    "camera": {"pos":null,"rot":null,"zoom":null,"fov":null},
+    "ambientLight":{"pos":null, "rot":null, "intensity":0.1, "color":"#ffffff"}
+
+},
+{
+    "text": " ", "note":"",
+    "transition":"contact",
+    "camera":{"pos":null,"rot":null,"zoom":null,"fov":null},
+    "introSunLight":{"pos":[-0.1,3.4,-2.6], "rot":[5.2,1.3,-9.0], "intensity":0.01, "color":"#cfc5c5"}
+
+},
+{
+    "text": " ", "note":"",
+    "transition":"contact2",
+    "camera":{"pos": [0.544, 2.018, -0.789], "rot": [2.081, -0.962, 0.034], "zoom":null, "fov":null},
+    "introSunLight":{"pos":[-0.1,3.4,3.4], "rot":[5.2,1.3,-9.0], "intensity":8.3, "color":"#cfc5c5"}
+
+},
+{
+    "text": "(You have reached the end page)", "note":"",
+    "transition":"contact3",
+    "camera":{"pos": [0.544, 2.018, -0.789], "rot": [2.081, -0.962, 0.034], "zoom":null, "fov":null},
+    "introSunLight":{"pos":[0,2.44,3.4], "rot":[2.0,1.0,-7.5], "intensity":0.1, "color":"#c29191"}
+
+}
+]

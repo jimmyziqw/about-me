@@ -1,0 +1,119 @@
+.virtual-device {
+  overflow-y: scroll;
+  background-color: #e0e9e3;
+}
+.hero-section{
+  background-image: url('./images/starbucks1.jpg');
+}
+
+.feature-section-one{
+  background-image: url('./images/starbucks2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+:root{
+  --laptop-width: 1440px;
+  --laptop-height: 990px;
+  --phone-width:380px;
+  --phone-height:800px;
+  --laptop-scale:2;
+  --phone-scale:2;
+  --mobile-width:calc(var(--phone-width)/var(--phone-scale));
+  --mobile-height:calc(var(--phone-height)/var(--phone-scale));
+  --laptop-scaled-width: calc(var(--laptop-width)/var(--laptop-scale));
+  --laptop-scaled-height: calc(var(--laptop-height)/var(--laptop-scale));
+}
+
+.desktop-app {
+  width:var(--laptop-scaled-width);
+  height: var(--laptop-scaled-height);
+  overflow-x: hidden;
+  font-size: 12px;
+}
+
+.coffee-app{
+  font-family: Helvetica, sans-serif; 
+  border-radius: 0.5em;
+  height: 100%;
+  width:100%;
+    /* overflow-y: scroll; */
+}
+
+nav button {
+  background-color: transparent; 
+  color: #f8e8e8; 
+  border: none; 
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+/* ----------home--------- */
+.desktop-app .hero-section, .feature-section-one{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  padding:1em;
+}
+
+.desktop-app .feature-section-one {
+  height:165px ;
+  margin-top: 1em;
+}
+.desktop-app .primary-content {
+  padding: 1rem;
+}
+
+.desktop-app .hero-section-btn {
+  position: absolute;
+  font-size: 2em;
+  background-color: #4dc985;
+  z-index: 91;
+  top: 98%;
+  left: 50%;
+  border:none;
+  transform: translate(-50%, -50%) rotate(10deg); 
+}
+
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  overflow-y: scroll; 
+  background: rgba(75, 169, 97, 0.621);
+  font: Helvetica, sans-serif; 
+  font-size:2rem;
+}
+
+nav {
+
+  width: 100%;
+  margin:0em 0em 0em 0em;
+  height: 3em;
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(75, 169, 97, 0.621); 
+  padding-left: 10px;
+  padding-right: 10px; 
+}
+
+
+#contact {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+
+.desktop-app nav button {
+  background-color: transparent; 
+  color: #f8e8e8; 
+  border: none; 
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.desktop-app  button:hover {
+  background-color: transparent; 
+  color: #f90e0e; 
+}
